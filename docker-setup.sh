@@ -32,4 +32,4 @@ sed -i "s|MICROBIN_PUBLIC_PATH=.*|MICROBIN_PUBLIC_PATH=${public_path}|" .env
 sed -i "s|MICROBIN_PORT=.*|MICROBIN_PORT=${port}|" .env
 
 # Start Microbin using Docker Compose
-docker compose --env-file .env up --detach
+docker compose --detach
